@@ -1,19 +1,27 @@
-:root{
-    --cor-primaria: #a5227e;
-    --cor-secundaria: #a95e2c;
-    --cor-destaque: #cbf20b;
-    --cor-fundo-destaque: #7e8bf1;
+div{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    margin-bottom: 5px;
 }
-
-h1{
-    color: var(--cor-primaria);    
+ 
+.amarelo{
+    background-color: yellow;
 }
-
-h2{
-    color: var(--cor-secundaria);
+ 
+.vermelho{
+    background-color: red;
 }
-
-p{
-    color: var(--cor-destaque);
-    background-color: var(--cor-fundo-destaque);
+ 
+.azul{
+    background-color: blue;
+ 
+}
+ 
+.verde{
+    background-color: green;
+}
+ 
+.fonte-clara{
+    color: white;
 }
