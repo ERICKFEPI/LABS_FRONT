@@ -4,11 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
     <link rel="stylesheet" href="css/cadastro.css">
     <title>Cadastro</title>
 </head>
 
 <body>
+=======
+    <title>Cadastro</title>
+</head>
+
+<body> 
+>>>>>>> 21b6bd8d77daa012ffffaef4ad4d43bfcaa4e7e7
     <form action="">
         <fieldset>
             <legend>Dados Pessoais</legend>
@@ -17,6 +24,7 @@
             <label for="email">E-mail</label>
             <input type="email" name="email" required>
             <label for="data">Data de Nascimento</label>
+<<<<<<< HEAD
             <input type="date" name="data">
             <label for="rg">RG</label>
             <input type="text" name="rg" maxlength="13" minlength="4" title="Coloque seu RG completo." required>
@@ -29,10 +37,26 @@
             <label for="rua">Rua</label>
             <input type="text" name="rua">
             <label for="numero">Número</label>
+=======
+            <input type="date" name="date">
+            <label for="rg">RG</label>
+            <input type="text" name="rg"
+                 maxlength="13" minlength="3" title="Coloque seu RG completo.">
+            <label for="cpf">CPF</label>
+            <input type="text" name="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" title="CPF no formato" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Endereço</legend>
+            <label for="rua">Rua</label>
+            <input type="rua" name="rua">
+            <label for="numero">Numero</label>
+>>>>>>> 21b6bd8d77daa012ffffaef4ad4d43bfcaa4e7e7
             <input type="number" name="numero">
             <label for="bairro">Bairro</label>
             <input type="text" name="bairro">
             <label for="cep">CEP</label>
+<<<<<<< HEAD
             <input type="text" name="cep" pattern="\d{5}-\d{3}" required>
             <label for="cidade">Cidade</label>
             <input type="text" name="cidade">
@@ -85,3 +109,18 @@
 </body>
 
 </html>
+=======
+            <input type="number" name="cep" pattern="\d{5}-\d{3}" required>
+        </fieldset>
+             
+        <fieldset>
+            <legend>Login</legend>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome"> 
+        </fieldset>
+        <input type="submit" value="Enviar" name="botaoEnviar">
+    </form>
+
+
+</body>
+>>>>>>> 21b6bd8d77daa012ffffaef4ad4d43bfcaa4e7e7
