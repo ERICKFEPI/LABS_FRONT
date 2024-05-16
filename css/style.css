@@ -1,0 +1,27 @@
+div{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    margin-bottom: 5px;
+}
+
+.amarelo{
+    background-color: yellow;
+}
+
+.vermelho{
+    background-color: red;
+}
+
+.azul{
+    background-color: blue;
+
+}
+
+.verde{
+    background-color: green;
+}
+
+.fonte-clara{
+    color: white;
+}
